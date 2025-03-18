@@ -1,0 +1,17 @@
+// component
+@use "./Shape.scss";
+@use "./header.scss";
+@use "./navbar.scss";
+@use "./products.scss";
+@use "./Contact.scss";
+@use "./About.scss";
+@use 'animate.css';
+@use "login";
+
+// UI Import
+@use "custom-ui/input";
+
+@use "variable";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

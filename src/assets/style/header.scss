@@ -1,0 +1,38 @@
+.scale {
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.scale:hover {
+    transform: scale(1.5);
+}
+
+.logo-title {
+    font-size: 5vmin;
+    font-weight: 900;
+    color: white;
+    text-shadow: 3px 0 black, -3px 0 black, 0 3px black, 0 -3px black,
+    2px 2px black, -2px -2px black, 2px -2px black, -2px 2px black;
+}
+
+.sub-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+    1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    background-color: var(--theme-color);
+    padding: 4px;
+}
+
+.main-title {
+    font-size: 5vmin;
+    font-weight: 900;
+    color: var(--theme-color);
+}
+
+.background {
+    background: linear-gradient(90deg, #ffffff, #e0e0e0);
+    height: auto;
+    min-height:100vh;
+}

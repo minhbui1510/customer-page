@@ -1,0 +1,17 @@
+@import "assets/style/index.scss";
+:root {
+  --theme-color: green;
+
+  /* font size */
+  --fz-sm: 0.5rem;
+  --fz-md: 1rem;
+  --fz-lg: 1.5rem;
+  --fz-xl: 2rem;
+}
+@media screen and (max-width: 425px) {
+    /* font size */
+  --fz-sm: 0.25rem;
+  --fz-md: 0.5rem;
+  --fz-lg: 1rem;
+  --fz-xl: 1.5rem;
+}
